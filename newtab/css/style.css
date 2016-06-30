@@ -200,9 +200,12 @@ html,body{
 }
 
 .search input:hover{
-  
   outline:none;
   background:#fff;
   
+}
+
+input:-webkit-autofill {
+  background-color:blue !important;
 }
 
