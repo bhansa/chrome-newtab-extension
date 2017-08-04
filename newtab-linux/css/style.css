@@ -2,7 +2,7 @@ html,body{
             height: 100%;
             margin: 0;
             padding: 0;
-            background:url('../img/bing_bg1.jpg') no-repeat center center;
+            background:url('../img/bg.jpg') no-repeat center center;
             background-size:cover;
             /*background-image:linear-gradient(#e7e7e7,#d7d7d7);*/
         }
@@ -18,7 +18,7 @@ html,body{
         
         .clock-wrapper{
             position: absolute;
-            top: 80%;
+            top: 50%;
             right: 0;
             bottom: 50%;
             left: 0;
@@ -170,42 +170,3 @@ html,body{
             background-color: #ddd;
             border-radius: 50%;
         }
-        
-/* search bar style */
-.search{
-  -webkit-transition: all .55s ease;
-  box-shadow: 0 5px 10px 5px rgba(0,0,0,0.3);
-  width:855px;
-  margin: 0 auto;
-  padding:10px;
-  background-color:rgba(21,21,180,0.8);
-  display:table;
-}
-.search form{
-  padding:10px;
-}
-.search input{
-  -webkit-transition: background .55s ease;
-  padding:10px;
-  font-size:20px;
-  font-family:inherit;
-  /*border-radius:25px;*/
-  background-color:#232833;
-  border:none;
-  color:#9f9b89;
-  outline:none;
-  box-shadow:none;
-  display:table-cell;
-  width:100%;
-}
-
-.search input:hover{
-  outline:none;
-  background:#fff;
-  
-}
-
-input:-webkit-autofill {
-  background-color:blue !important;
-}
-
